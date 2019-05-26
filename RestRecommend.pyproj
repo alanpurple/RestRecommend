@@ -21,7 +21,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="preprocess.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="RestRecommend.py" />
+    <Compile Include="train_review_sent.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="airbnb-chicago\" />
