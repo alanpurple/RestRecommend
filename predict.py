@@ -1,5 +1,5 @@
 import tensorflow as tf
-from train_sent_model import get_review_sent_model,hub_embedding
+from review_sent_model import get_review_sent_model,hub_embedding
 import numpy as np
 
 

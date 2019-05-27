@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1e8c7fc0-da72-4c00-9eac-2550a8d94db8</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>RestRecommend.py</StartupFile>
+    <StartupFile>predict.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -27,11 +27,10 @@
     <Compile Include="preprocess.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="RestRecommend.py" />
     <Compile Include="train_review_sent.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="train_sent_model.py">
+    <Compile Include="review_sent_model.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
