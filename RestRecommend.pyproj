@@ -21,11 +21,17 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="predict.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="preprocess.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="RestRecommend.py" />
     <Compile Include="train_review_sent.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="train_sent_model.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

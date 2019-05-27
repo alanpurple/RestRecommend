@@ -341,3 +341,6 @@ healthchecksdb
 
 *.csv
 *.geojson
+*.tfrecord
+
+train/
