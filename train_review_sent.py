@@ -35,7 +35,7 @@ def main():
             verbose=1)
         ]
 
-        model.fit(dataset,epochs=3,callbacks=model_callbacks)
+        model.fit(dataset,epochs=6,callbacks=model_callbacks)
 
         model.save('train/review_model_final.h5')
 

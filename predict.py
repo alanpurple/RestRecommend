@@ -5,7 +5,8 @@ import numpy as np
 
 model=get_review_sent_model()
 
-model.load_weights('train/review_model_3.ckpt')
+latest_ckpt=tf.train.latest_checkpoint('train')
+model.load_weights(latest_ckpt)
 
 pred=model.predict(np.array(['hahaha, this place is nonsense.','smells like shit','how wonderful!']))
 
